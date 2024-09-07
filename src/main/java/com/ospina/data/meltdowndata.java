@@ -1,4 +1,4 @@
-package data;
+package com.ospina.data;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -9,9 +9,6 @@ public class meltdowndata {
 	private MyTime StartTime;
 	@SerializedName("endtime")
 	private MyTime EndTime;
-	
-	@SerializedName("runtime in secs")
-	private double runtimeinSecs;
 	
 	@SerializedName("cause")
 	private String cause;
@@ -60,16 +57,6 @@ public class meltdowndata {
 
 	public void setCause(String cause) {
 		this.cause = cause;
-	}
-
-
-	public double getRuntimeinSecs() {
-		return runtimeinSecs;
-	}
-
-
-	public void setRuntimeinSecs(double runtimeinSecs) {
-		this.runtimeinSecs = runtimeinSecs;
 	}
 
 
