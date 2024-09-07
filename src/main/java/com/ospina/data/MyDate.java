@@ -1,4 +1,4 @@
-package data;
+package com.ospina.data;
 
 import java.io.FileReader;
 import java.io.PrintStream;
